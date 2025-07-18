@@ -1,0 +1,71 @@
+body {
+  padding-top: 10px;
+}
+
+.version-label {
+  float: right;
+  margin-top: 10px !important;
+  padding: 4px !important;
+}
+
+.sample-image {
+  width: 2.5em !important;
+  height: 2.5em !important;
+}
+
+.header {
+  font-size: 0.9em !important;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 0.8em !important;
+  color: red;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0px !important;
+}
+
+.no-margin-sides {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.item-less-margin-top {
+	margin-top: 10px !important;
+}
+
+.item-less-margin-bottom {
+  margin-bottom: 20px !important;
+}
+
+.no-margin-top-bottom {
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+.column-no-padding-sides {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.row-no-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.cache {
+  -webkit-filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(50deg) saturate(1000%) contrast(0.8) !important;
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(50deg) saturate(1000%) contrast(0.8) !important;
+}
+
+.miss {
+  -webkit-filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+
+.external {
+  -webkit-filter: grayscale(100%) brightness(0.50) !important;
+  filter: grayscale(100%) brightness(0.50) !important;
+}

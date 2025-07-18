@@ -1,0 +1,164 @@
+[cf-debugger-style=miss] {
+  /* Red Cache Miss */
+  -webkit-filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+
+[cf-debugger-style=cache] {
+  /* Orange */
+  /* filter: grayscale(100%) sepia(100%) brightness(80%) hue-rotate(350deg) contrast(1) saturate(400%) !important; */
+
+  /* Yellow */
+  /* -webkit-filter: grayscale(100%) brightness(120%) sepia(90%) hue-rotate(5deg) saturate(500%) contrast(0.7); */
+  /* filter: grayscale(100%) brightness(120%) sepia(90%) hue-rotate(5deg) saturate(500%) contrast(0.7); */
+
+  /* Black */
+  /* -webkit-filter: invert(30%) grayscale(100%) brightness(70%) contrast(4); */
+  /* filter: invert(30%) grayscale(100%) brightness(70%) contrast(4); */
+
+  /* Blue */
+  /* -webkit-filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(0.8); */
+  /* filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(0.8); */
+
+  /* Green */
+  -webkit-filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(50deg) saturate(1000%) contrast(0.8) !important;
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(50deg) saturate(1000%) contrast(0.8) !important;
+
+  /* Red */
+  /* -webkit-filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2); */
+  /* filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8); */
+}
+
+[cf-debugger-style=external] {
+  -webkit-filter: grayscale(100%) brightness(0.50) !important;
+  filter: grayscale(100%) brightness(0.50) !important;
+}
+
+[cf-debugger-style=hover] {
+  filter: none !important;
+  /* transform: scale3d(0.98, 0.98, 1) !important; */
+  /* box-shadow: 0 8px 20px -4px #000000; */
+}
+
+/*-----------------------------------------------------------------------------*/
+
+.cf-debugger-popup {
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  box-shadow: rgb(136, 136, 136) 5px 10px 18px !important;
+  border-style: none !important;
+  background: rgba(33, 33, 36, 0.7) !important;
+  width: 300px !important;
+  border-radius: 0.28571429rem !important;
+  position:fixed !important;
+  top: 10px !important;
+  right: 5px !important;
+  z-index: 99999999 !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  padding-top: 5px !important;
+  padding-bottom: 10px !important;
+  font-size: 12px !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-weight: bold !important;
+  display: none;
+}
+
+.cf-debugger-popup-title {
+  color: #FF851B !important;
+  font-size: 13px !important;
+  margin-top: 10px !important;
+  margin-bottom: 0px !important;
+}
+
+.cf-debugger-popup-divider {
+  border-top: 1px solid rgba(34, 36, 38, 0.15) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-top-color: rgba(34, 36, 38, 0.15) !important;
+  border-left-color: rgba(34, 36, 38, 0.15) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.15) !important;
+  border-right-color: rgba(255, 255, 255, 0.15) !important;
+  color: #FFFFFF !important;
+  color: rgba(0, 0, 0, 0.85) !important;
+  margin-top: 1px !important;
+  margin-bottom: 1px !important;
+}
+
+.cf-debugger-popup-grid {
+  display: inline-block !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  height: 60px !important;
+}
+
+.cf-debugger-popup-row {
+  display: flex !important;
+  flex-direction: row !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  height: 25px !important;
+  margin-top: 3px !important;
+}
+
+.cf-debugger-popup-column {
+  width: 23% !important;
+  padding-left: 1.5% !important;
+  display: flex !important;
+}
+
+.cf-debugger-popup-label {
+  max-width: 100% !important;
+  height: 100% !important;
+  width: 100px !important;
+  text-align: center !important;
+  font-size: 11px !important;
+  background-color: #E8E8E8 !important;
+  font-weight: bold !important;
+  border-radius: 0.28571429rem !important;
+  line-height: 25px !important; /* this value should be the same as the row height in order to place the text in the middle */
+}
+
+.cf-debugger-popup-url-holder {
+  word-break: break-all !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.cf-debugger-popup-thumbnail-container {
+  width: 250px !important;
+  height: 150px !important;
+}
+
+.cf-debugger-popup-thumbnail {
+  width: auto !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  height: auto !important;
+  filter: none !important;
+}
+
+.cf-debugger-popup-image-counter {
+  /* nothing to add */
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.cf-debugger-popup-response-header {
+  color: #2ECC40 !important;
+  margin-top: 2px;
+}
+
+.cf-debugger-popup-response-sub-header {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+[cf-label=green] {
+  background-color: rgb(33, 186, 69, 0.5) !important;
+  border-color: #21BA45 !important;
+  color: #FFFFFF !important;
+}
+
+[cf-label=grey] {
+  background-color: #767676 !important;
+  border-color: #767676 !important;
+  color: rgba(182, 182, 182, 0.9) !important;
+}

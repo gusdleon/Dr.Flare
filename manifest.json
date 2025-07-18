@@ -1,0 +1,23 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "lib/jquery-3.1.1.min.js", "js/background.js", "js/class/NetworkRequest.js" ]
+   },
+   "browser_action": {
+      "default_popup": "popup.html",
+      "default_title": "Dr.FLARE"
+   },
+   "description": "Get insights of your Cloudflared website. Provides an easy way to see benefits with Cloudflare.",
+   "devtools_page": "devtools.html",
+   "icons": {
+      "128": "img/circle-new-logo.png",
+      "16": "img/circle-new-logo.png",
+      "48": "img/circle-new-logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjCZXOeg4y53p31R73QvMZnLt4gOBN/cbJMpbYcwFEWwWRYOhx1dmWE3eiPHOYWmvSJZ2WaDo04MUBD4WSw+UkoA9JfMw/yG/TE778cVlYry2mwB8PvZFwk6ITHgOrxRkdJV64SrSaOnlv6Ekmn3nZyzF5Y7YvUmND923ea2smWxEsJGddgorDFa0pLAN8AwzzVSobtHQrY3zBY1euWtKvFuHole4KxOlKcPeCW1KW+/olMRSe/w8MJV+sszdOJEk2t+3A/PNbPLeX1brM7OFio9XHFiFFUJ2xKV41SuLIg4QiXwFhkBjyxOVRrPAa753z5dF9C944eQmnUEiLghjswIDAQAB",
+   "manifest_version": 2,
+   "name": "Dr.FLARE",
+   "permissions": [ "activeTab", "storage", "tabs", "webNavigation", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.4"
+}

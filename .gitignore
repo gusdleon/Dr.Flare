@@ -1,0 +1,35 @@
+# === Carpetas innecesarias ===
+_metadata/
+
+# === Archivos binarios o empaquetados ===
+*.crx
+*.pem
+*.zip
+
+# === Sistemas operativos ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Archivos temporales comunes ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# === Editores de código ===
+.vscode/
+.idea/
+
+# === Node.js o herramientas futuras ===
+node_modules/
+dist/
+build/
+out/
+
+# === Herramientas modernas (por si luego migras) ===
+.vite/
+*.tsbuildinfo
+*.eslintcache
+coverage/
