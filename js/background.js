@@ -86,7 +86,8 @@ chrome.runtime.onStartup.addListener(function() {
   initStorage();
 });
 
-// Fires when user clicks disable / enable button in extension page
-window.onload = function() {
-  initStorage(); 
-};
+// Nota: En MV3 no se utiliza window.onload en el service worker.
+//// Fires when user clicks disable / enable button in extension page
+//window.onload = function() {
+//  initStorage(); 
+//};
